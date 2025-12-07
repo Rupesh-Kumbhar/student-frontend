@@ -11,6 +11,7 @@ function Home(){
                 <ul>
                     <li> <a href="/addStudent"> Add Student</a> </li>
                     <li> <a href="/allStudents"> List Student</a> </li>
+                    <li> <a href="/deleteStudent"> Delete Student</a> </li>
                 </ul>
             </div>
         </div>
