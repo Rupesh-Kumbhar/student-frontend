@@ -5,6 +5,7 @@ import Home from '../src/Home/home';
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import AddStudent from './AddStudent/addStudent';
 import ViewAllStudent from './ViewAllStudent/ViewAllStudent';
+import DeleteStudent from './DeleteStudent/deleteStudent';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/addStudent" element={<AddStudent />} />
         <Route path='/allStudents' element={<ViewAllStudent />} ></Route>
+        <Route path='/deleteStudent' element={<DeleteStudent />} />
       </Routes>
     </BrowserRouter>
     </div>
