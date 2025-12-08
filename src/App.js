@@ -8,6 +8,7 @@ import ViewAllStudent from './ViewAllStudent/ViewAllStudent';
 import DeleteStudent from './DeleteStudent/deleteStudent';
 import SearchStudent from './SearchStudent/searchStudent';
 import Login from './Login/login';
+import SignUp from './SignUp/signUp';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path='/deleteStudent' element={<DeleteStudent />} />
         <Route path='/searchStudent' element={<SearchStudent />} />
         <Route path='/' element={<Login />} />
+        <Route path='/signUp' element={<SignUp />} />
       </Routes>
     </BrowserRouter>
     </div>
