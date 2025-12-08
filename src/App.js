@@ -7,6 +7,7 @@ import AddStudent from './AddStudent/addStudent';
 import ViewAllStudent from './ViewAllStudent/ViewAllStudent';
 import DeleteStudent from './DeleteStudent/deleteStudent';
 import SearchStudent from './SearchStudent/searchStudent';
+import Login from './Login/login';
 
 function App() {
   return (
@@ -29,11 +30,13 @@ function App() {
     <div>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/home" element={<Home />} />
         <Route path="/addStudent" element={<AddStudent />} />
         <Route path='/allStudents' element={<ViewAllStudent />} ></Route>
         <Route path='/deleteStudent' element={<DeleteStudent />} />
         <Route path='/searchStudent' element={<SearchStudent />} />
+        <Route path='/' element={<Login />} />
       </Routes>
     </BrowserRouter>
     </div>
