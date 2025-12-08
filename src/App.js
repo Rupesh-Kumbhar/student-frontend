@@ -6,6 +6,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import AddStudent from './AddStudent/addStudent';
 import ViewAllStudent from './ViewAllStudent/ViewAllStudent';
 import DeleteStudent from './DeleteStudent/deleteStudent';
+import SearchStudent from './SearchStudent/searchStudent';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/addStudent" element={<AddStudent />} />
         <Route path='/allStudents' element={<ViewAllStudent />} ></Route>
         <Route path='/deleteStudent' element={<DeleteStudent />} />
+        <Route path='/searchStudent' element={<SearchStudent />} />
       </Routes>
     </BrowserRouter>
     </div>
