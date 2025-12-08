@@ -33,7 +33,7 @@ function ViewAllStudent(){
                 }
                 </div>
                 <div className='text-center mt-5'>
-                    <a class="btn btn-secondary" href="/" role="button">Back to Home</a>
+                    <a class="btn btn-secondary" href="/home" role="button">Back to Home</a>
                 </div>
             </div>
         </div>
